@@ -34,7 +34,11 @@ def move(board, index, token = "X")
     board[index] = token
   else
     puts "Move is invalid. Please try again."
-    
+
   end
 
+end
+
+def turn
+  puts "Please enter 1-9:"
 end
