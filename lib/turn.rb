@@ -29,6 +29,12 @@ def valid_move?(board, index)
 
 end
 
-def move(board, index, token)
+def move(board, index, token = "X")
+  if valid_move?(board, index)
+    board[index] = token
+  else
+    puts "Move is invalid. Please try again."
+    
+  end
 
 end
