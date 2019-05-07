@@ -13,6 +13,7 @@ def input_to_index(index)
     return index
   else
     return -1
+  end
 end
 
 def valid_move?(board, index)
