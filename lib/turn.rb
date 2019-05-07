@@ -7,7 +7,12 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def input_to_index(index)
+  index = index.to_i
 
+  if index.is_a? Integer
+    return index
+  else
+    return -1
 end
 
 def valid_move?(board, index)
